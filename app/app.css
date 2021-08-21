@@ -133,6 +133,10 @@ body {
         height: 100vh;
     }
 
+    .contenido {
+        width: auto;
+    }
+
     .card {
         display: flex;
         flex-direction: row-reverse;
