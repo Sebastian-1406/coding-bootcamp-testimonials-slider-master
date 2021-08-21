@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+
+:root {
+    --font : 'Inter', sans-serif;
+    --Dark-Blue: hsl(240, 38%, 20%);
+    --Grayish-Blue: hsl(240, 18%, 77%);
+}
+body {
+    font-family: var(--font);
+}
+
+.contenido {
+    position: relative;
+}
+
+.card {
+    width: 375px;
+   padding: 30px;
+    overflow: hidden;
+}
+
+.card__imagen {
+    position: relative;
+}
+
+.card__imagen .bg{
+    width: 100%;
+}
+.card__imagen .img {
+    width: 100%;
+    max-width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+}
+.card__texto .parrafo{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: var(--Dark-Blue);
+}
+.texto__info {
+    text-align: center;
+}
+.texto__info .info{
+    font-weight: 400;
+    margin: 0;
+    font-size: 17px;
+    color: var(--Grayish-Blue);
+}
+.texto__info .negro {
+    color: var(--Dark-Blue);
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.bg-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+}
