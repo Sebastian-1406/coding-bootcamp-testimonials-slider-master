@@ -2,8 +2,8 @@ let nex = document.querySelector(".icon-next");
 let prev = document.querySelector(".icon-prev");
 let imagen = document.querySelector(".img");
 const imagenes = {
-    persona1 : "../images/image-tanya.jpg",
-    persona2 : "../images/image-john.jpg",
+    persona1 : "./images/image-tanya.jpg",
+    persona2 : "./images/image-john.jpg",
 }
 const texto = {
     texto1 : '“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about  starting up as a professional developer. ”',
